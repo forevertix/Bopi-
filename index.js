@@ -3,9 +3,6 @@ const Discord = require('discord.js');
 const colours = require("./colours")
 const bot = new Discord.Client();
 const prefix = botconfig.prefix;
-const  token - process.env.arcadia
-
-
 
 bot.on("message", (message) => {
         if(message.content == "status")
